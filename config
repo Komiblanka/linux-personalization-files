@@ -1,9 +1,12 @@
 [global_config]
   borderless = True
-  title_inactive_bg_color = "#928374"
-  title_inactive_fg_color = "#ebdbb2"
-  title_transmit_bg_color = "#282828"
-  title_transmit_fg_color = "#ebdbb2"
+  geometry_hinting = False
+  hide_from_taskbar = True
+  title_hide_sizetext = True
+  title_inactive_bg_color = "#434343"
+  title_inactive_fg_color = "#a4dfff"
+  title_transmit_bg_color = "#222222"
+  title_transmit_fg_color = "#a4dfff"
 [keybindings]
 [layouts]
   [[default]]
@@ -17,13 +20,10 @@
 [plugins]
 [profiles]
   [[default]]
-    background_color = "#282828"
-    background_darkness = 0.9
+    background_color = "#222222"
     background_image = None
-    cursor_color = "#ebe7b2"
-    cursor_shape = underline
-    font = Monospace 11
-    foreground_color = "#ff8200"
-    palette = "#282828:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#a89984:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
+    cursor_color = "#a4dfff"
+    foreground_color = "#a4dfff"
+    icon_bell = False
+    palette = "#222222:#00ffff:#0bbfbf:#73ecec:#075859:#2e9e9e:#199a9a:#2f6969:#434343:#00ffff:#00ffff:#00ffff:#2cb2b2:#3cffff:#05b2b2:#a4dfff"
     show_titlebar = False
-    use_system_font = False
